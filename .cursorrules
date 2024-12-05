@@ -1,0 +1,26 @@
+{
+  "rules": [
+    {
+      "selector": "button",
+      "cursor": "pointer",
+      "hover": {
+        "cursor": "pointer",
+        "scale": 1.05,
+        "transition": "transform 0.2s ease-in-out"
+      }
+    },
+    {
+      "selector": ".reset-button",
+      "cursor": "default",
+      "hover": {
+        "cursor": "pointer",
+        "opacity": 0.8,
+        "transition": "opacity 0.2s ease-in-out"
+      }
+    }
+  ],
+  "defaults": {
+    "cursor": "default",
+    "transition": "all 0.2s ease"
+  }
+}
